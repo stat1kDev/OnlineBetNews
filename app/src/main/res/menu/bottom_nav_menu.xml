@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_rating"
+        android:icon="@drawable/ic_star_black_24dp"
+        android:title="@string/nav_menu_bet_rating" />
+
+    <item
+        android:id="@+id/navigation_bonuses"
+        android:icon="@drawable/ic_monetization_on_black_24dp"
+        android:title="@string/navigation_bonuses_title" />
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/matchCenter" />
+
+    <item
+        android:id="@+id/navigation_forecast"
+        android:icon="@drawable/ic_multiline_chart_black_24dp"
+        android:title="@string/navigation_forecast_title" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/News" />
+
+
+</menu>

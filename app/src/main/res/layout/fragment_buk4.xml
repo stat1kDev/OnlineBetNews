@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Buk4Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="dsa"
+                android:src="@drawable/liga_stavok1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:text="Характеристики"
+                android:textColor="#2e2e2e"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/liga_stavok2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:text="Важная информация"
+                android:textColor="#2e2e2e"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/liga_stavok_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="#2e2e2e"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/liga_stavok3" />
+
+            <TextView
+                android:id="@+id/liga_stavok_text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="#2e2e2e"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/liga_stavok4" />
+
+            <TextView
+                android:id="@+id/liga_stavok_text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="#2e2e2e"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/liga_stavok5" />
+
+            <TextView
+                android:id="@+id/liga_stavok_text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="#2e2e2e"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/liga_stavok_btn"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#66ae26"
+                android:text="Перейти на официальный сайт"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

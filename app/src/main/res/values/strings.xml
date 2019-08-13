@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Рейтинг букмекеров</string>
+    <string name="matchCenter">Матч-центр</string>
+    <string name="News">Новости</string>
+    <string name="nav_menu_bet_rating">Букмекеры</string>
+    <string name="image_description">text</string>
+    <string name="navigation_bonuses_title">Бонусы БК</string>
+    <string name="navigation_forecast_title">Прогнозы БК</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
